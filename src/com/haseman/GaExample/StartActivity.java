@@ -32,7 +32,7 @@ public class StartActivity extends Activity {
     }
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event){
-    	Intent intent = new Intent(this, FinalImageActivity.class);
+    	Intent intent = new Intent(this, ImageActivity.class);
     	intent.putExtra("url", "http://wanderingoak.net/bridge.png");
     	startActivity(intent);
     	return super.onKeyDown(keyCode, event);
